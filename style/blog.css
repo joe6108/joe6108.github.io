@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  /* 英文 */
+  font-family: "Comic Sans MS";
+  
+}
+.large_box{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+.L_box:hover .L_box_img{
+  opacity:0.9;
+  height: 70%;
+  background-image: url('../img/capo/Blue_Left.png');
+  background-size: 100%; /* 圖片完全顯示 */
+  background-repeat: no-repeat; /* 防止重複 */ 
+  margin-top: 40%;
+  cursor:pointer;
+}
+.L_box:active{
+  background-color: rgb(136, 232, 225);
+}
+.L_box{
+  background-color: rgb(176, 237, 204);
+  flex:1;
+  height: 100%;
+}
+.L_box_img{
+  height: 70%;
+  background-image: url('../img/capo/Blue_Left_2.png');
+  background-size: 100%; /* 圖片完全顯示 */
+  background-repeat: no-repeat; /* 防止重複 */ 
+  margin-top: 40%;
+}
+.R_box:hover .R_box_img{
+  opacity:0.9;
+  height: 70%;
+  background-image: url('../img/capo/Block_Right.png');
+  background-size: 100%; /* 圖片完全顯示 */
+  background-repeat: no-repeat; /* 防止重複 */ 
+  margin-top: 40%;
+  cursor:pointer;
+}
+.R_box:active{
+  background-color: rgb(121, 146, 144);
+}
+.R_box{
+  flex:1;
+  height: 100%;
+  background-color: rgb(176, 237, 204);
+}
+.R_box_img{
+  height: 70%;
+  background-image: url('../img/capo/Block_Right_2.png');
+  background-size: 100%; /* 圖片完全顯示 */
+  background-repeat: no-repeat; /* 防止重複 */ 
+  margin-top: 40%;
+}
+.M_box{
+  flex:5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(176, 237, 204);
+}
+.title_name{
+  background-color: rgb(176, 237, 204);
+  height: 10%;
+  width: 100%;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+.image{
+  border: 10px rgb(135, 237, 182) solid;
+  border-radius:10%;
+  background-image: url('../img/sleep/1.png');
+  background-size: 100%; 
+  height: 50%;
+  width: 95%;
+}
+.Introtuce_box{
+  height: 20%;
+  width: 100%;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-top: 10px;
+  background-color: rgb(176, 237, 204);
+}
+.L_Intro{
+  height: 100%;
+  width: 10%;
+}
+.Introtuce{
+  height: 100%;
+  width: 80%;
+  line-height: 1.8;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.R_Intro{
+  height: 100%;
+  width: 10%;
+}
+.list{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+.L_list_capo{
+  height: 100%;
+  width: 10%;
+  background-image: url('../img/capo/capo.jpg');
+  background-size: 100%; 
+}
+.list_link{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.R_list_capo{
+  height: 100%;
+  width: 10%;
+  background-image: url('../img/capo/capo.jpg');
+  background-size: 100%; 
+}
+.to_github{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.to_total{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.go_github{
+  height: 50%;
+  width: 40%;
+  border: 10px rgb(135, 237, 182) solid;
+  border-radius: 50%;
+  background-color: rgb(96, 236, 162);
+  color: rgb(0, 151, 71);
+  font-size: 30px;
+  text-decoration: none;
+}
+.go_total{
+  height: 50%;
+  width: 40%;
+  border: 10px rgb(135, 237, 182) solid;
+  border-radius: 50%;
+  background-color: rgb(96, 236, 162);
+  color: rgb(0, 151, 71);
+  font-size: 30px;
+  text-decoration: none;
+}

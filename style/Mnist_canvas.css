@@ -1,0 +1,9 @@
+.image{
+    border: 10px rgb(135, 237, 182) solid;
+    border-radius:10%;
+    background-image: url('../img/Mnist/API.png');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 95%;
+  }
